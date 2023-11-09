@@ -1,0 +1,134 @@
+.app_body {
+  width: 200vh;
+  height: 60vh;
+  display: flex
+}
+
+.container {
+  width: 50%;
+  height: auto;
+}
+
+.app_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #F97319;
+}
+
+.icon_delete {
+  color: #EF4444;
+}
+
+.form button[type="submit"] {
+  padding: 8px 16px;
+  background-color: rgb(100, 156, 239);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.work_list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.work_item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.item_name {
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.item_name.completed {
+  text-decoration: line-through;
+  color: #888888;
+}
+
+.edit_form_container {
+  position: fixed;
+  top: 350px;
+  left: 750px;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.edit-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.edit-form button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.work_status {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
